@@ -280,3 +280,12 @@ export default function Home() {
 export default MyApp;
 
 ```
+
+## Create constants inside src/constants.ts
+
+```
+# Paste Code
+export const DEFAULT_LANGUAGE = 'en'
+export const SECONDARY_LANGUAGE = 'ur'
+```
+
