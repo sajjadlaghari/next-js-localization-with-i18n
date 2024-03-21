@@ -9,7 +9,7 @@ npm run dev
 yarn dev
 ```
 
-#DEMO
+# DEMO
 
 
 ### ENGLISH
@@ -61,7 +61,7 @@ yarn add cookies-next
 
 ```
 
-### Create i18n.ts file one root directory
+### Create i18n.ts file on root directory
 ```
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next"
