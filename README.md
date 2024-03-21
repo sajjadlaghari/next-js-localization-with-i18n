@@ -28,5 +28,43 @@ yarn add i18next
 yarn add react-i18next
 # and cookie you can use local session also
 yarn add cookies-next 
+```
 
+### Create i18n.ts file one root directory
+```
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next"
+// import Backend from "i18next-http-backend"
+import homeEn from "./locales/en/home.json"
+import homeUr from "./locales/ur/home.json"
+// erros
+
+import { DEFAULT_LANGUAGE } from "@/constants/app";
+
+const resources = {
+    en: {
+        home: homeEn,
+    },
+    ur: {
+        home: homeUr,
+    },
+};
+
+i18n
+    .use(initReactI18next)
+    //   .use(Backend)
+    .init({
+        resources,
+        fallbackLng: DEFAULT_LANGUAGE,
+        supportedLngs: [
+            "en",
+            "ur"
+        ],
+        ns: ["home", "errors"],
+        defaultNS: "home"
+    });
+
+export default i18n
+
+# Replace Past Above code
 ```
