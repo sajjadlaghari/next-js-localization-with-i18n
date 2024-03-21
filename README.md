@@ -19,3 +19,14 @@ yarn dev
 
 ![image](https://github.com/sajjadlaghari/next-js-localization-with-i18n/assets/68752819/9febb38d-2848-4997-a2b3-f9cc3c2c582c)
 
+
+## First Install
+
+```bash
+yarn add i18next
+# and
+yarn add react-i18next
+# and cookie you can use local session also
+yarn add cookies-next 
+
+```
