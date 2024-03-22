@@ -134,7 +134,7 @@ export default MyApp;
 ```
 
 
-## Create components directory inside components create navbar.tax paste below code
+## Create components directory inside components create navbar.tsx paste below code
 
 ``` 
 import { DEFAULT_LANGUAGE, SECONDARY_LANGUAGE } from "@/constants/app";
