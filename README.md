@@ -286,7 +286,7 @@ export default MyApp;
 
 ```
 
-## Create constants directory inside src/constants app.ts
+## Create constants directory inside src/constants/app.ts
 
 ```
 # Paste Code
